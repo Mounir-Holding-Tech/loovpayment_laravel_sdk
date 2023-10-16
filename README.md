@@ -63,6 +63,7 @@ class payment extends Controller{
         "email" =>"arollefona11@gmail.com",
         "phoneNumber" => "237699009999"
      ];
+     
      $response = (new LoovPay())->setKeys(AppKey MerchantKey)->payIn($data);   
     }
 
