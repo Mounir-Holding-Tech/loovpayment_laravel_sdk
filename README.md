@@ -65,6 +65,7 @@ class payment extends Controller{
      ];
 
      $response = (new LoovPay())->setKeys(AppKey MerchantKey)->payIn($data);   
+     return $response;
     }
 
 }
@@ -104,6 +105,7 @@ class payment extends Controller{
         "phoneNumber" => "237699009999"
      ];
      $response = (new LoovPay())->setKeys(AppKey MerchantKey)->mobileSoftPay($data);
+     return $response;
     }
 
 }
@@ -221,6 +223,7 @@ class payment extends Controller{
         "currency" => "XAF"
      ];
      $response = (new LoovPay())->setKeys(AppKey MerchantKey)->payOut($data);
+     return $response;
     }
 
 }
@@ -253,6 +256,7 @@ class payment extends Controller{
 
     public function payment(){
      $response = (new LoovPay())->setKeys(AppKey MerchantKey)->checkStatus($reference);
+     return $response;
     }
 
 }
