@@ -1,10 +1,10 @@
 <?php
 
-namespace Loov\LaravelSdk;
+namespace Loovpayment\LaravelSdk;
 use Exception;
 use Illiminate\Support\Facades\Http;
 
-class LoovService {
+class LoovPay{
 
     public $url ='https://api.secure.payment.loov-solutions.com/v1';
     public $headers =[];

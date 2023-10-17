@@ -27,5 +27,6 @@
             "email": "fona.arolle@mounir-holding.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

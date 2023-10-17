@@ -100,7 +100,7 @@ class ComposerStaticInit267124ccc1235a2a412bcb1de6967c8a
         ),
         'L' => 
         array (
-            'Loov\\LaravelSdk\\' => 16,
+            'Loovpayment\\LaravelSdk\\' => 23,
             'League\\MimeTypeDetection\\' => 25,
             'League\\Flysystem\\Local\\' => 23,
             'League\\Flysystem\\' => 17,
@@ -328,9 +328,10 @@ class ComposerStaticInit267124ccc1235a2a412bcb1de6967c8a
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Loov\\LaravelSdk\\' => 
+        'Loovpayment\\LaravelSdk\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/tests',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
