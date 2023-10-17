@@ -9,13 +9,13 @@
 
 ## Introduction
 
-Loov Solutions is an online payment tools.
+Loov Solutions is an online payment tool.
 
 
 
 ## Installation
 
-Run this in your terminal to install loov fro comand line
+Run this in your terminal to install loov from comand line
 
 ``` bash
 composer require loovpayment/laravel-sdk
@@ -63,7 +63,7 @@ class payment extends Controller{
         "email" =>"arollefona11@gmail.com",
         "phoneNumber" => "237699009999"
      ];
-     
+
      $response = (new LoovPay())->setKeys(AppKey MerchantKey)->payIn($data);   
     }
 
