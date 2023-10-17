@@ -56,7 +56,7 @@ class LoovPay{
         "operator" => $data["operator"],    
         "phoneNumber" => $data["phoneNumber"],    
         "customer" => [       
-             "name" => $data["username"],       
+             "name" => $data["name"],       
              "email" => $data["email"],        
              "phoneNumber" => "237".$data["phoneNumber"]    
             ],

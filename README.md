@@ -59,7 +59,7 @@ class payment extends Controller{
         "cancel_url" => "https://google.com?state=cancel",
         "callback_url" => "https://webhook.site/9c647add-6b43-4832-bd5d-db529c7c9b79",
         "description" => "test payment de service en ligne",
-        "username" => "Arolle Fona",
+        "name" => "Arolle Fona",
         "email" =>"arollefona11@gmail.com",
         "phoneNumber" => "237699009999"
      ];
