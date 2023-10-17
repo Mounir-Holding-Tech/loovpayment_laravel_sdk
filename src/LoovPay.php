@@ -31,7 +31,7 @@ class LoovPay{
         'cancel_url'=> $data['cancel_url'], 
         'description' => $data['description'], 
         'customer' => [
-            'name' => $data['username'],  
+            'name' => $data['name'],  
             'email' => $data['email'],    
             'phoneNumber' => $data['phoneNumber']  
             ]
