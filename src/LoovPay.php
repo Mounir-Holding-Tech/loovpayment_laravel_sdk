@@ -2,7 +2,8 @@
 
 namespace Loovpayment\LaravelSdk;
 use Exception;
-use Illiminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Http;
+
 
 class LoovPay{
 
